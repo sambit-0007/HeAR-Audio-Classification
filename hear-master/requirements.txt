@@ -6,4 +6,4 @@ numpy==1.21.2
 torch==1.10.0
 scikit-learn==1.0.1
 soundfile==0.10.3.post1
-altair
+altair==4.2.2
