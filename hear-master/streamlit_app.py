@@ -10,7 +10,7 @@ from python.data_processing.audio_utils import preprocess_audio
 # from hear_utils import get_hear_embedding  # ensure correct import
 
 # Load model
-model = joblib.load(r"./model/classifier.pkl")
+model = joblib.load(r"model/classifier.pkl")
 
 
 SAMPLE_RATE = 16000
