@@ -8,6 +8,11 @@ import numpy as np
 import torch
 from python.data_processing.audio_utils import preprocess_audio
 # from hear_utils import get_hear_embedding  # ensure correct import
+import os
+
+# Get the current working directory
+current_path = os.getcwd()
+print("Current working directory:", current_path)
 
 # Load model
 model = joblib.load(r"model/classifier.pkl")
