@@ -15,7 +15,7 @@ current_path = os.getcwd()
 print("Current working directory:", current_path)
 
 # Load model
-model = joblib.load(r"model/classifier.pkl")
+model = joblib.load(r"hear-master/model/classifier.pkl")
 
 
 SAMPLE_RATE = 16000
